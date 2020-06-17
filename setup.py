@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='django-configurations-celery-app',
-    version='2020.6.13',
+    version='2020.6.14',
     install_requires=[
         'django-configurations',
         'setuptools',

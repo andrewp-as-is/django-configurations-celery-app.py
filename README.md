@@ -18,7 +18,7 @@ from django_configurations_celery_app import app
 ```
 
 ```bash
-$ celery -A django_configurations_celery_app worker -P gevent -c 20 -Q default
+$ celery -A django_configurations_celery_app worker -P gevent -c 20 -Q celery
 ```
 
 P.S.: app source
